@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background: #E06258;
+}
+
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.jimmy-index img {
+    width: 400px;
+}
+
+div.jimmy-index {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.balao {
+    background-color: #cde3fc;
+    padding: 15px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 50%;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 7px 10px black;
+}
+
+.balao:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left:-10px; 
+    top:25px;  
+    transform:rotate(45deg); 
+    background-color: #cde3fc;
+}
+
+
+.formulario {
+    background-color: #ffffff8f;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+input, button {
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+
+    border-width: 2px;
+    border-color: black;
+}
+
+input#relato {
+    height: 100px;
+}
+
+input#botao-enviar, button {
+    width: auto;
+    font-size: 20px;
+    background-color: #E06258;
+    color: white;
+    transition: all ease-in-out;
+}
+
+input#botao-enviar:hover, button:hover {
+    background-color: #ffffff8f;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+}
