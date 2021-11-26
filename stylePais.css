@@ -7,20 +7,24 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #fff4f0;
+}
+
 h1 {
-    color: #000000;
+    color: #2f2d27;
     font-weight: 600;
     font-size: 3rem;
     opacity: 0.8;
 }
 h2, p  {
-    color: #000000;
+    color: #2f2d27;
     font-weight: 600;
     opacity: 0.8;
 }
 
 main {
-    background: white;
+    background: #fff4f0;
 }
 
 /* DASHBOARD SECTION */
@@ -50,12 +54,13 @@ main {
 }
 
 .link h2 {
+    font-size: 1.2rem;
     padding: 0rem 2rem;
-    color: white;
+    color: #fff4f0;
 }
 
 .link h2:hover {
-    color: black;
+    color: #2f2d27;
     cursor: pointer;
 }
 
@@ -92,7 +97,7 @@ main {
 
 button {
     background: #E06258;
-    color: white;
+    color: #fff4f0;
     border: none;
     width: 150px;
     height: 25px;
@@ -104,6 +109,10 @@ button {
 }
 
 button:hover {
-    background: white;
-    color: #000000;
+    background: #fff4f0;
+    color: #2f2d27;
+}
+
+.logo {
+    width: 100px;
 }

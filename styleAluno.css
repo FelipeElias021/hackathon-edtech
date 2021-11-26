@@ -48,7 +48,7 @@ div.jimmy-index {
     width: 200px;
     height: 200px;
     border-radius: 10px;
-    box-shadow: 10px 7px 10px black;
+    box-shadow: 10px 7px 10px #2f2d27;
 }
 
 .balao:before {
@@ -64,7 +64,7 @@ div.jimmy-index {
 
 
 .formulario {
-    background-color: #ffffff8f;
+    background-color: #fff4f0;
     padding: 40px;
     border-radius: 10px;
 }
@@ -75,7 +75,7 @@ input, button {
     width: 100%;
 
     border-width: 2px;
-    border-color: black;
+    border-color: #2f2d27;
 }
 
 input#relato {
@@ -86,19 +86,19 @@ button {
     width: auto;
     font-size: 20px;
     background-color: #E06258;
-    color: white;
+    color: #fff4f0;
     transition: all ease-in-out;
 }
 
 button:hover {
-    background-color: #ffffff8f;
-    color: black;
+    background-color: #fff4f0;
+    color: #2f2d27;
     cursor: pointer;
     transform: scale(1.1);
 }
 
-.botoes {
-    background: #ffffff8f;
+.menu {
+    background: #fff4f0;
     margin: 15% auto;
     padding: 50px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
@@ -108,9 +108,9 @@ button:hover {
     text-align: center;
 }
 
-.botoes button {
+.menu button {
     background: #E06258;
-    color: white;
+    color: #fff4f0;
     border: none;
     width: 150px;
     height: 25px;
@@ -121,7 +121,11 @@ button:hover {
     cursor: pointer;
 }
 
-.botoes button:hover {
-    background: white;
-    color: #000000;
+.menu button:hover {
+    background: #fff4f0;
+    color: #2f2d27;
+}
+
+.logo img{
+    width: 300px;
 }
