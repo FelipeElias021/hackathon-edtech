@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+h2, p  {
+    color: #000000;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+main {
+    background: white;
+}
+
+/* DASHBOARD SECTION */
+
+.dashboard {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #E06258;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.link {
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0rem 2rem;
+    color: white;
+}
+
+.link h2:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* GAMES SECTION */
+
+.main {
+    margin: 6rem;
+    margin-top: 0.4rem;
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-evenly;
+}
+
+
+.status input {
+    border-radius: 10px;
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction:  column;
+    border-radius: 15px;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgb(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+}
+
+button {
+    background: #E06258;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 25px;
+    border-radius: 0.4rem;
+    margin: 2rem;
+    margin-bottom: 0rem;
+    box-shadow: 6px 6px 15px rgb(124, 124, 124, 0.4);
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: #000000;
+}
