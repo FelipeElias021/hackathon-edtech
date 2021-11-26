@@ -2,7 +2,7 @@ const nomeCrianca = ["Otávio","João Flávio","Júlia","Maria Clara"];
 const relatoCrianca = ["Todo dia o meninos me chamam de Otário",
 "Os meninos da minha sala vivem me xingando, não sei por que",
 "As meninas ficam me ignorando e não querem ser minhas amigas porque ela dizem que sou muito feia",
-"Meus pais estão morando em casas diferentes, e eles fican no meu ouvindo o dia inteiro falando mal um do outro"];
+"Meus pais estão morando em casas diferentes, e eles ficam no meu ouvindo o dia inteiro falando mal um do outro"];
 
 function listar() {
     const output = document.querySelector(".cards");

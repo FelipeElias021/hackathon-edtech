@@ -105,4 +105,23 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
+}
+
+.botoes button {
+    background: #E06258;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 25px;
+    border-radius: 0.4rem;
+    margin: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 6px 6px 15px rgb(124, 124, 124, 0.4);
+    cursor: pointer;
+}
+
+.botoes button:hover {
+    background: white;
+    color: #000000;
 }
